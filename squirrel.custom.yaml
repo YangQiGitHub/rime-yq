@@ -1,0 +1,32 @@
+# 配置文件内容请参考 /Library/Input Methods/Squirrel.app/Contents/SharedSupport/squirrel.yaml
+
+
+patch:
+  # style/color_scheme: luna
+  # style/color_scheme: clean_white
+  # style/color_scheme: google
+  # style/color_scheme: ink
+  # style/color_scheme: solarized_light
+  style/color_scheme: apathy
+  style/horizontal: true
+
+  app_options:
+    org.alacritty:
+      ascii_mode: true
+      vim_mode: true
+    md.obsidian:
+      ascii_mode: true
+      vim_mode: true
+    com.microsoft.VSCode:
+      ascii_mode: true
+      vim_mode: true
+    com.googlecode.iterm2:
+      ascii_mode: true
+      vim_mode: true
+    com.apple.Terminal:
+      ascii_mode: true
+      vim_mode: true
+    com.apple.Spotlight:
+      ascii_mode: true
+    com.raycast.macos:
+      ascii_mode: true

@@ -1,0 +1,36 @@
+# ~/Library/Rime/default.custom.yaml
+
+patch:
+  schema_list:
+    - schema: double_pinyin_flypy
+
+  switcher:
+    caption: "〔选择输入法〕"
+    hotkeys:
+      - Control+grave
+    save_options:
+      - full_shape
+      - ascii_punct
+      - simplification
+      - extended_charset
+      - zh_hant
+      - zh_hans
+      - zh_hant_tw
+    fold_options: true
+    abbreviate_options: true
+    option_list_separator: '／'
+
+  menu:
+    page_size: 8
+
+  ascii_composer:
+    good_old_caps_lock: true
+    switch_key:
+      Shift_L: commit_code
+      Shift_R: commit_code
+      Control_L: noop
+      Control_R: noop
+      Caps_Lock: clear 
+      Eisu_toggle: clear
+
+
