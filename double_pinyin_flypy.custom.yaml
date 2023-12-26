@@ -12,3 +12,5 @@ patch:
       states: [ 繁, 简 ]
     - name: ascii_punct
       states: [ 。，, ．， ]
+
+  translator/dictionary: rime_ice
