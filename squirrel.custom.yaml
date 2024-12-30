@@ -20,6 +20,9 @@ patch:
     com.microsoft.VSCode:
       ascii_mode: true
       vim_mode: true
+    com.mitchellh.ghostty:
+      ascii_mode: true
+      vim_mode: true
     com.googlecode.iterm2:
       ascii_mode: true
       vim_mode: true
