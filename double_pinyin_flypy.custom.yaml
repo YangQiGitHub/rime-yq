@@ -13,4 +13,6 @@ patch:
     - name: ascii_punct
       states: [ 。，, ．， ]
 
+  translator/preedit_format: [] # 修复双拼按键，展示全拼的问题。
   translator/dictionary: rime_ice
+
